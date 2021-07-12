@@ -2,10 +2,6 @@ package org.example;
 
 import javax.swing.*;
 
-import entity.Klient;
-import entity.Ucet;
-import enums.Narodnost;
-import enums.TypUctu;
 import gui.HlavneOkno;
 
 /**
