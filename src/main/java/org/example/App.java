@@ -19,6 +19,7 @@ public class App {
         } catch ( ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e){
             System.out.println(e.getMessage());
         }
+
         new HlavneOkno();
     }
 }
