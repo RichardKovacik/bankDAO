@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.HlavneOkno">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="560" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="41240" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="21888" class="javax.swing.JButton" binding="zalozUcetButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Zaloz ucet"/>
+            </properties>
+          </component>
+          <component id="2d068" class="javax.swing.JButton" binding="pridajButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Pridaj"/>
+            </properties>
+          </component>
+          <component id="a3d36" class="javax.swing.JButton" binding="editujButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Edituj"/>
+            </properties>
+          </component>
+          <component id="13b89" class="javax.swing.JButton" binding="vymazButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Vymaz"/>
+            </properties>
+          </component>
+          <component id="67f95" class="javax.swing.JButton" binding="odoberUcetButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Odober ucet"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="c20b3">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <minimumSize width="20" height="15"/>
+          <preferredSize width="453" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="54c7d" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <cellSelectionEnabled value="false"/>
+              <columnSelectionAllowed value="false"/>
+              <doubleBuffered value="false"/>
+              <minimumSize width="20" height="50"/>
+              <rowSelectionAllowed value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="b7de3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="42633" class="javax.swing.JButton" binding="klientiButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="klienti"/>
+            </properties>
+          </component>
+          <component id="6e640" class="javax.swing.JButton" binding="uctyButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="ucty"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
